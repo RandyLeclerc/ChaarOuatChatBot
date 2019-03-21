@@ -1,0 +1,31 @@
+﻿{
+  "name": "OuatEchoBot",
+  "services": [
+    {
+      "type": "endpoint",
+      "name": "production",
+      "endpoint": "https://qnamakerouat.azurewebsites.net/api/messages",
+      "appPassword": "jzcLCOU1804%$zdhcTTM8?}",
+      "appId": "a9ab93e8-d4dc-4175-b4cd-946b71cfc664"
+    },
+    {
+      "type": "endpoint",
+      "name": "development",
+      "endpoint": "http://localhost:3978/api/messages",
+      "appId": "",
+      "appPassword": "",
+      "id": "1"
+    },
+    {
+      "type": "qna",
+      "endpointKey": "9525cf67-ed6d-4124-8b25-56e3248fa1f7",
+      "hostname": "https://qnamakerouat.azurewebsites.net/qnamaker",
+      "id": "111",
+      "kbId": "cd2be153-3489-4ba1-a9c3-f20ae73a60a4",
+      "name": "QnaBotOuat",
+      "subscriptionKey": ""
+    }
+  ],
+  "padlock": "",
+  "version": "2.0"
+}
